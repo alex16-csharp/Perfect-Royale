@@ -1,0 +1,548 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #d0d2ff;
+    margin: 0;
+    // background-image: url("/");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+}
+
+
+.navbar {
+    overflow: visible;
+    background-color: #3f052e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #fff7c6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff7c6;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #b80d4031;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3f052e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #fff7c6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #b80d4031;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.back-image {
+    background-image: url("candy_bar_main.jpg");
+    background-color: #cccccc;
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.back-text {
+    font-family: "BodoniXT";
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3f052e;
+}
+
+.button1 {
+    border: none;
+    color: #fff7c6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #75537d;
+}
+
+/*(home) oferte buttton */
+
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+a:link {
+    color: #fff7c6;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 60px;
+}
+
+.main h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    text-decoration-color: #75537d;
+
+}
+
+.right {
+    color: #fff7c6;
+    background-color: #75537d;
+    float: left;
+    width: 40%;
+    padding: 0 15px;
+    margin-top: 7px;
+    text-align: center;
+    border: 1px #3a00299a;
+    border-radius: 25px;
+}
+
+#C2 {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+}
+
+.separator {
+    border-color: #75537d;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+}
+
+#C1 {
+    border-color: #75537d;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #57073f;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    font-family: BodoniXT;
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+img.recom {
+    width: 100%;
+    height: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    .main,
+    .right {
+        width: 100%;
+
+    }
+
+    ul li {
+        float: none;
+    }
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Left and right column */
+.column.side {
+    width: 33%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+    box-sizing: border-box;
+}
+
+.contact_home {
+    text-align: center;
+    text-transform: uppercase;
+    // font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.contact_home a:link {
+    color: #75537d;
+}
+
+.contact_home a:visited {
+    color: #75537d;
+}
+
+.contact_home a:hover {
+    color: #75537d;
+}
+
+.contact_home a:active {
+    color: #75537d;
+}
+
+
+.footer {
+    background-color: #57073f;
+    color: #fff7c6;
+    padding: 30px;
+    font-size: 30px;
+    font-family: "BodoniXT";
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about_paragaph {
+    font-family: "Signika Negative";
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    line-height: 1.5;
+}
+
+.about_title {
+    font-family: "Signika Negative";
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 1.8;
+}
+
+/* Botez */
+
+.servicii_main {
+    // font-family: "Signika Negative";
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 1.8;
+}
+
+.servicii-image {
+    background-image: url("botez_main.jpg");
+    background-color: #cccccc;
+    height: 950px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.servicii-text {
+    font-family: "BodoniXT";
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3f052e;
+}
+
+.servicii-button {
+    border: none;
+    color: #fff7c6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #3f052e;
+}
+
+
+/* Nunta */
+
+.nunta-image {
+    background-image: url("nunta_main.jpg");
+    background-color: #cccccc;
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Corporate */
+
+.corporate-image {
+    background-image: url("corporate_bg.jpg");
+    background-color: #cccccc;
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Ent */
+.ent-image {
+    background-image: url("ent_bg.jpg");
+    background-color: #cccccc;
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+// Oferte 
+
+.oferte-item {
+    display: inline-block;
+    background-color: rgba(156, 156, 156, 0.425);
+    padding: 50px 50px 100px 50px;
+    margin: 2px 500px 2px 500px;
+}
+
+/* on PC */
+@media screen and (min-width: 550px) {
+    .oferte-image {
+        float: right;
+        width: 50%;
+        // padding-right: 15px;
+        padding-top: 45px;
+    }
+
+    .oferte-image img {
+        width: 100%;
+    }
+
+    .oferte-description {
+        float: left;
+        width: 50%;
+
+    }
+
+    .oferte-paragraph {
+        font-size: 20px;
+    }
+}
+
+/* on Mobile */
+@media screen and (max-width: 550px) {
+    .oferte-image {
+        width: 100%;
+    }
+
+    .oferte-image img {
+        width: 100%;
+    }
+
+    .oferte-description {
+        width: 100%;
+    }
+
+    .oferte-item {
+        padding: auto;
+        margin: auto;
+    }
+}
+
+// on tablet
+
+@media only screen and (max-width: 1024px) {
+    .oferte-item {
+        padding: auto;
+        margin: auto;
+    }
+}
+
+
+/* Style the header */
+.oferte_header {
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+// .oferte-title {
+//     font-size: 25px;
+// }
+
+// .oferte-paragraph {
+// font-size: 20px;
+// }
+
+// .oferte_chese {
+//     background-color: rgba(8, 8, 8, 0.329);
+//     padding: 50px 50px 150px;
+//     margin: 2px 500px 2px 500px;
+
+// }
