@@ -267,12 +267,11 @@ img.recom {
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.column-home {
     float: left;
     width: 33.33%;
     padding: 15px;
     text-align: center;
-
 }
 
 
@@ -284,27 +283,23 @@ img.recom {
 }
 
 /* Left and right column */
-.column.side {
+.column-home {
     width: 33%;
 }
 
-/* Middle column */
-.column.middle {
-    width: 33%;
-}
 
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+    text-align: center;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
-    .column.side,
-    .column.middle {
+    .column-home {
         width: 100%;
     }
 }
@@ -546,3 +541,27 @@ img.recom {
 //     margin: 2px 500px 2px 500px;
 
 // }
+
+.contact_oferte {
+    text-align: center;
+    text-transform: uppercase;
+    // font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.contact_oferte a:link {
+    color: #2a0931;
+}
+
+.contact_oferte a:visited {
+    color: #2a0931;
+}
+
+.contact_oferte a:hover {
+    color: #2a0931;
+}
+
+.contact_oferte a:active {
+    color: #2a0931;
+}
