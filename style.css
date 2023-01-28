@@ -325,6 +325,7 @@ a:visited,
 a:hover,
 a:active {
   color: #000000;
+  text-decoration: none;
 }
 
 .contact-mail a:link,
@@ -332,6 +333,11 @@ a:visited,
 a:hover,
 a:active {
   color: #000000;
+  text-decoration: none;
+}
+
+.contact-mail {
+  font-size: 22px;
 }
 
 .contact-phone {
@@ -432,7 +438,7 @@ a:active {
 
 /* Corporate */
 .corporate-image {
-  background-image: url("corporate_bg.jpg");
+  background-image: url("/corporate_bg.jpeg");
   background-color: #cccccc;
   height: 950px;
   background-position: center;
