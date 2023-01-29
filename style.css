@@ -21,7 +21,7 @@ body {
 .navbar {
   overflow: visible;
   background-color: #3f052e;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -487,13 +487,15 @@ a:active {
   }
   .oferte-description {
     float: left;
-    width: 50%;
   }
   .oferte-paragraph {
     font-size: 20px;
   }
   .oferte-heading {
     font-size: 30px;
+  }
+  .oferte-image-small {
+    display: none;
   }
 }
 @media only screen and (max-width: 1440px) {
@@ -505,6 +507,10 @@ a:active {
 /* on Mobile */
 @media screen and (max-width: 550px) {
   .oferte-image {
+    width: 100%;
+    display: none;
+  }
+  .oferte-image-small {
     width: 100%;
   }
   .oferte-image img {
