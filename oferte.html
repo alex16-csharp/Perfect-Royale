@@ -77,6 +77,27 @@
         </div>
     </div>
 
+    <section class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1"
+                    src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+                    alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2"
+                    src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+                    alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3"
+                    src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+                    alt="3D rendering of an imaginary blue planet in space" />
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+
     <div class="oferte-item">
         <img class="oferte-image" src="" alt="Petfect Royal" />
         <div class="oferte-description">
@@ -120,86 +141,6 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript">
-        var i = 0;
-        var image = new Array();
-        // LIST OF IMAGES 
-        image[0] = "/images/oferte/slider/1-oferte.jpeg";
-        image[1] = "/images/oferte/slider/2-oferte.jpeg";
-        image[2] = "/images/oferte/slider/3-oferte.jpeg";
-        image[3] = "/images/oferte/slider/4-oferte.jpeg";
-        image[4] = "/images/oferte/slider/5-oferte.jpeg";
-        image[5] = "/images/oferte/slider/6-oferte.jpeg";
-        image[6] = "/images/oferte/slider/7-oferte.jpeg";
-        image[7] = "/images/oferte/slider/8-oferte.jpeg";
-        var k = image.length - 1;
-
-        var caption = new Array();
-        // LIST OF CAPTIONS 
-        caption[0] = "Caption";
-        caption[1] = "Caption";
-        caption[2] = "Caption";
-        caption[3] = "Caption";
-        caption[4] = "Caption";
-        caption[5] = "Caption";
-        caption[6] = "Caption";
-        caption[7] = "Caption";
-
-        var link = new Array();
-        // LIST OF LINKS 
-        link[0] = "/images/oferte/slider/1-oferte.jpeg";
-        link[1] = "/images/oferte/slider/2-oferte.jpeg";
-        link[2] = "/images/oferte/slider/3-oferte.jpeg";
-        link[3] = "/images/oferte/slider/4-oferte.jpeg";
-        link[4] = "/images/oferte/slider/5-oferte.jpeg";
-        link[5] = "/images/oferte/slider/6-oferte.jpeg";
-        link[6] = "/images/oferte/slider/7-oferte.jpeg";
-        link[7] = "/images/oferte/slider/8-oferte.jpeg";
-
-        function swapImage() {
-            var el = document.getElementById("mydiv");
-            el.innerHTML = caption[i];
-            var img = document.getElementById("slide");
-            img.src = image[i];
-            var a = document.getElementById("link");
-            a.href = link[i];
-
-            if (i < k) { i++; }
-            else { i = 0; }
-            setTimeout("swapImage()", 5000);
-        }
-        function addLoadEvent(func) {
-            var oldonload = window.onload;
-            if (typeof window.onload != 'function') {
-                window.onload = func;
-            } else {
-                window.onload = function () {
-                    if (oldonload) {
-                        oldonload();
-                    }
-                    func();
-                }
-            }
-        }
-        addLoadEvent(function () {
-            swapImage();
-        });  
-    </script>
-    <table style="border:none;background-color:transparent;">
-        <tr>
-            <td align="center">
-                <a name="link" id="link" href="" target="_blank"><img name="slide" id="slide" alt="my images"
-                        height="1280" width=auto src="" /></a>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" style="font:small-caps bold 15px georgia; color:blue;">
-                <div aligh="center" id="mydiv"></div>
-            </td>
-        </tr>
-    </table>
-
 </body>
 
 </html>
