@@ -472,7 +472,7 @@ a:active {
   display: inline-block;
   background-color: rgba(156, 156, 156, 0.425);
   padding: 50px 50px 100px 50px;
-  margin: 2px 500px 2px 500px;
+  margin: 2px 300px 2px 300px;
 }
 
 /* on PC */
@@ -480,7 +480,6 @@ a:active {
   .oferte-image {
     float: right;
     width: 50%;
-    padding-top: 45px;
   }
   .oferte-image img {
     width: 100%;
@@ -703,7 +702,7 @@ code {
 
 .slider-wrapper {
   position: relative;
-  max-width: 48rem;
+  max-width: 76rem;
   margin: 0 auto;
 }
 
@@ -749,7 +748,7 @@ code {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #3f052e;
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
