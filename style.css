@@ -748,11 +748,18 @@ code {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: #3f052e;
+  background-color: rgba(0, 0, 0, 0.5058823529);
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
 
 .slider-nav a:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 550px) {
+  .slider-nav a {
+    width: auto;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

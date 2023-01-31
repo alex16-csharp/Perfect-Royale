@@ -586,6 +586,7 @@ a:active {
     .oferte-heading {
         font-size: 22px;
     }
+
 }
 
 
@@ -854,11 +855,18 @@ code {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: #3f052e;
+    background-color: #00000081;
     opacity: 0.75;
     transition: opacity ease 250ms;
 }
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 550px) {
+    .slider-nav a {
+        width: auto;
+        height: auto;
+    }
 }
