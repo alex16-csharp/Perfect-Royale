@@ -18,6 +18,10 @@ body {
   }
 }
 
+hr {
+  border: 0px;
+}
+
 .navbar {
   overflow: visible;
   background-color: #3f052e;
