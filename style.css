@@ -479,64 +479,6 @@ a:active {
   margin: 2px 300px 2px 300px;
 }
 
-/* on PC */
-@media screen and (min-width: 550px) {
-  .oferte-image {
-    float: right;
-    width: 50%;
-  }
-  .oferte-image img {
-    width: 100%;
-  }
-  .oferte-description {
-    float: left;
-  }
-  .oferte-paragraph {
-    font-size: 20px;
-  }
-  .oferte-heading {
-    font-size: 30px;
-  }
-  .oferte-image-small {
-    display: none;
-  }
-}
-@media only screen and (max-width: 1440px) {
-  .oferte-item {
-    padding: 4rem;
-    margin: 4rem;
-  }
-}
-/* on Mobile */
-@media screen and (max-width: 550px) {
-  .oferte-image {
-    width: 100%;
-    display: none;
-  }
-  .oferte-image-small {
-    width: 100%;
-  }
-  .oferte-image img {
-    width: 100%;
-  }
-  .oferte-description {
-    width: 100%;
-    font-size: auto;
-  }
-  .oferte-item {
-    padding: auto;
-    margin: auto;
-  }
-  .oferte-paragraph {
-    font-size: auto;
-  }
-  .servicii_main {
-    font-size: auto;
-  }
-  .oferte-heading {
-    font-size: 22px;
-  }
-}
 /* Style the header */
 .oferte_header {
   padding: 20px;
@@ -765,5 +707,78 @@ code {
   .slider-nav a {
     width: auto;
     height: auto;
+  }
+}
+/* on PC */
+@media screen and (min-width: 550px) {
+  .oferte-image {
+    float: right;
+    width: 50%;
+  }
+  .oferte-image img {
+    width: 100%;
+  }
+  .oferte-description {
+    float: left;
+  }
+  .oferte-paragraph {
+    font-size: 20px;
+  }
+  .oferte-heading {
+    font-size: 30px;
+  }
+  .oferte-image-small {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .oferte-item {
+    padding: 4rem;
+    margin: 4rem;
+  }
+}
+/* on Mobile */
+@media screen and (max-width: 550px) {
+  .oferte-image {
+    width: 100%;
+    display: none;
+  }
+  .oferte-image-small {
+    width: 100%;
+    aspect-ratio: 9/16;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .oferte-image img {
+    width: 100%;
+  }
+  .oferte-description {
+    width: 100%;
+    font-size: auto;
+  }
+  .oferte-item {
+    padding: auto;
+    margin: auto;
+  }
+  .oferte-paragraph {
+    font-size: auto;
+  }
+  .servicii_main {
+    font-size: auto;
+  }
+  .oferte-heading {
+    font-size: 22px;
+  }
+  .slider-container {
+    padding: 2rem;
+  }
+  .slider-wrapper {
+    position: relative;
+    max-width: 76rem;
+    margin: 0 auto;
+  }
+  .slider {
+    display: flex;
+    aspect-ratio: 9/16;
   }
 }/*# sourceMappingURL=style.css.map */
