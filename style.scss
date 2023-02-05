@@ -393,11 +393,12 @@ a:active {
     background-color: #57073f;
     color: #fff7c6;
     padding: 30px;
-    font-size: 30px;
+    // font-size: 30px;
     font-family: "BodoniXT";
     text-align: center;
-    margin-top: 30px;
+
 }
+
 
 .about_paragaph {
     font-family: "Signika Negative";
@@ -891,4 +892,22 @@ code {
 
     }
 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
