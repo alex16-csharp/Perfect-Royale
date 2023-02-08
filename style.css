@@ -159,10 +159,8 @@ a:active {
 .main h2 {
   text-align: center;
   text-transform: uppercase;
-  -webkit-text-decoration-line: overline;
-          text-decoration-line: overline;
-  -webkit-text-decoration-color: #75537d;
-          text-decoration-color: #75537d;
+  text-decoration-line: overline;
+  text-decoration-color: #75537d;
 }
 
 .right {
@@ -178,34 +176,10 @@ a:active {
 }
 
 #C2 {
-  display: block;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 0px;
-}
-
-.separator {
-  border-color: #75537d;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
   border-width: 0px;
 }
 
 #C1 {
-  border-color: #75537d;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
   border-width: 0px;
 }
 
@@ -262,7 +236,7 @@ img.recom {
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   .main,
-.right {
+  .right {
     width: 100%;
   }
   ul li {
@@ -618,8 +592,7 @@ code {
   display: flex;
   aspect-ratio: 16/9;
   overflow-x: auto;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0deg, 0%, 0%, 0.25);
   border-radius: 0.5rem;
