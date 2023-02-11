@@ -672,7 +672,6 @@ code {
   }
   .oferte-image-small {
     width: 100%;
-    aspect-ratio: 9/16;
     -o-object-fit: cover;
        object-fit: cover;
   }
