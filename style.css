@@ -153,7 +153,7 @@ a:active {
 .main {
   float: left;
   width: 60%;
-  padding: 0 60px;
+  padding: 50px 60px 50px 60px;
   text-align: center;
 }
 
@@ -169,8 +169,8 @@ a:active {
   background-color: #75537d;
   float: left;
   width: 40%;
-  padding: 0 15px;
-  margin-top: 7px;
+  padding: 0 15px 30px;
+  margin-top: 50px;
   text-align: center;
   border: 1px rgba(58, 0, 41, 0.6039215686);
   border-radius: 25px;
@@ -231,6 +231,9 @@ img.recom {
   .main,
   .right {
     width: 100%;
+  }
+  .main {
+    padding: 50px 60px 0px 60px;
   }
   ul li {
     float: none;
@@ -558,7 +561,7 @@ code {
   max-width: 80em;
   padding: 2em;
   margin: auto;
-  padding: 10px;
+  padding: 50px 10px 10px 10px;
 }
 .article > p {
   margin-top: 2em;
@@ -587,7 +590,7 @@ code {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0deg, 0%, 0%, 0.25);
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
   -ms-overflow-style: none;
   /* Hide scrollbar IE and Edge */
@@ -635,6 +638,43 @@ code {
   .slider-nav a {
     width: auto;
     height: auto;
+  }
+}
+.about-left h1 {
+  color: #000000;
+}
+
+.about-left {
+  padding: 20px 50px 50px 350px;
+  float: left;
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #777;
+  /* The width is 20%, by default */
+}
+
+.about-right h1 {
+  color: #000000;
+}
+
+.about-right {
+  padding: 20px 350px 50px 50px;
+  float: left;
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #777;
+  /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .about-left,
+  .about-right {
+    width: 100%;
+    padding: 50px;
+    /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 /* on PC */
