@@ -645,7 +645,7 @@ code {
 }
 
 .about-left {
-  padding: 1.25rem 3.125rem 3.125rem 18.75rem;
+  padding: 1.25rem 3.125rem 3.125rem 8.75rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
@@ -658,7 +658,7 @@ code {
 }
 
 .about-right {
-  padding: 1.25rem 18.75rem 3.125rem 3.125rem;
+  padding: 1.25rem 8.75rem 3.125rem 3.125rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
@@ -666,7 +666,7 @@ code {
   color: #777;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .about-left,
   .about-right {
     width: 100%;
@@ -699,12 +699,6 @@ code {
   .oferte-item {
     padding: 4rem;
     margin: 4rem;
-  }
-  .about-left {
-    padding: 1.25rem 3.125rem 3.125rem 10.75rem;
-  }
-  .about-right {
-    padding: 1.25rem 10.75rem 3.125rem 3.125rem;
   }
 }
 /* on Mobile */
