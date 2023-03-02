@@ -20,9 +20,9 @@
             background-size: cover;
         }
 
-        img {
+        /* img {
             float: right;
-        }
+        } */
 
         @media screen and (max-width:600px) {
             body {
@@ -86,12 +86,23 @@
 
     <hr id="cheie">
 
+    <div class="images-slideshow">
+        <div class="imageSlides fade">
+            <img class="slider-out" src="/images/oferte/evenimentul-la-cheie/1-oferte.jpeg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="/images/oferte/evenimentul-la-cheie/2-oferte.jpeg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="/images/oferte/evenimentul-la-cheie/3-oferte.jpeg">
+        </div>
+        <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+        <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+    </div>
+
     <section class="slider-container">
         <div class="slider-wrapper">
             <div class="slider">
-                <img id="slide-1" src="/images/oferte/evenimentul-la-cheie/1-oferte.jpeg" alt="Perfect Royal" />
-                <img id="slide-2" src="/images/oferte/evenimentul-la-cheie/2-oferte.jpeg" alt="Perfect Royal" />
-                <img id="slide-3" src="/images/oferte/evenimentul-la-cheie/3-oferte.jpeg" alt="Perfect Royal" />
                 <img id="slide-4" src="/images/oferte/evenimentul-la-cheie/4-oferte.jpeg" alt="Perfect Royal" />
                 <img id="slide-5" src="/images/oferte/evenimentul-la-cheie/6-oferte.jpeg" alt="Perfect Royal" />
                 <img id="slide-6" src="/images/oferte/evenimentul-la-cheie/7-oferte.jpeg" alt="Perfect Royal" />

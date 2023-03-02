@@ -875,7 +875,7 @@ code {
     display: none
 }
 
-img {
+.slider-out img {
     margin: auto;
     display: block;
     width: 100%;
@@ -886,6 +886,7 @@ img {
     max-width: 612px;
     position: relative;
     margin: auto;
+    
 }
 
 /*Style for ">" next and "<" previous buttons */
