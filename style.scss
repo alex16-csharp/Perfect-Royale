@@ -871,7 +871,8 @@ code {
 }
 
 // new slider
-.mySlides {
+.mySlides1,
+.mySlides2 {
     display: none
 }
 
@@ -881,7 +882,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1400px;
+    max-width: 1000px;
     position: relative;
     margin: auto;
 }
