@@ -749,7 +749,8 @@ code {
 .mySlides2,
 .mySlides3,
 .mySlides4,
-.mySlides5 {
+.mySlides5,
+.mySlides6 {
   display: none;
 }
 
