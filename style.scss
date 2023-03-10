@@ -104,7 +104,7 @@ hr {
 .back-image {
     background-image: url("/images/pages-main/candy_bar_main.jpg");
     background-color: #cccccc;
-    height: 950px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@ img.recom {
 .servicii-image {
     background-image: url("/images/pages-main/botez_main.jpg");
     background-color: #cccccc;
-    height: 950px;
+    height: 700px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,7 +400,7 @@ img.recom {
 .nunta-image {
     background-image: url("/images/pages-main/nunta_main.jpg");
     background-color: #cccccc;
-    height: 950px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +412,7 @@ img.recom {
 .corporate-image {
     background-image: url("/images/pages-main/corporate_bg.jpeg");
     background-color: #cccccc;
-    height: 950px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,7 +423,7 @@ img.recom {
 .ent-image {
     background-image: url("/images/Entertainment/ent_cover.jpeg");
     background-color: #cccccc;
-    height: 950px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -896,18 +896,28 @@ code {
 .mySlides23,
 .mySlides24,
 .mySlides25 {
-    display: none
+    display: none;
 }
 
 img {
     vertical-align: middle;
 }
 
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    // max-width: 1000px;
+    // padding: 50px 50px 100px 50px;
+    margin: 2px 300px 2px 300px;
     position: relative;
-    margin: auto;
+
 }
 
 /* Next & previous buttons */
@@ -1008,5 +1018,19 @@ img {
     .next,
     .text {
         font-size: 11px
+    }
+}
+
+// hero images for 4k 
+
+@media screen and (min-width: 1920px) {
+
+    //For Projectors or Higher Resolution Screens (Full HD)
+    .back-image,
+    .servicii-image,
+    .nunta-image,
+    .corporate-image,
+    .ent-image {
+        height: 800px;
     }
 }
