@@ -16,10 +16,12 @@
 <body>
 
   <div class="back-image">
-    <div class="back-text">
+    <div class="back-heading">
       <h1 style="font-size:50px">Perfect Royal Events</h1>
+    </div>
+    <div class="back-text">
       <h3>Petrecere? Rafinament? Stil?</h3>
-      <button class="button1" type="button" onclick="document.location='oferte.html'">Pachete Oferte</button>
+      <button class="button1" type="button" onclick="document.location='oferte.html'">Alege Pachetele Noastre</button>
       <!--add link when clicl on button Document location '.html'-->
     </div>
   </div>
@@ -42,43 +44,33 @@
 
   <div style="overflow:auto">
 
-    <div class="main">
-      <h2>organizari evenimente</h2>
-      <p>
-        Bine ați venit la Perfect Royal Events! Continuăm să stabilim standardul pentru bufetele dulci si mini prajituri
-        pentru
-        evenimente unice din viata ta.
-        Fie ca este vorba de o nunta, botez, o aniversare cat si evenimente corporative
-        cat si
-        petrecerei tematice cel mai bun mod de a crea o experiență personalizată și specială pentru oaspeții dvs.
-        indiferent de
-        tipul evenimentului, vă putem ajuta să vă faceți ziua specială! </p>
-      <p>Personalul nostru ține pasul cu tendințele, folosindu-și creativitatea pentru a personaliza fiecare eveniment .
-        Nu este
-        de mirare că mărcile majore și funcțiile familiale, deopotrivă, vin la Perfect Royal Events pentru a-și îndulci
-        evenimentele!</p>
-    </div>
-
-    <div class="right">
-      <h2>DESPRE NOI</h2>
-      <p>Un pic despre compania Perfect Royal Events: Bine ați venit la Perfect Royal Events!Colaborari cu peste 10000
-        de clienti
-        pe an, suntem specialiștii în organizarea evenimentelor de neuitat!</p>
-
-      <p>Continuăm să stabilim standardul pentru petrecerile dvs. din Bucuresti si nu numai pentru nunți, evenimente
-        corporative,
-        botezuri, zile de naștere și multe altele cel mai bun mod de a crea o experiență personalizată și specială
-        pentru
-        oaspeții dumneavoastra.
-      </p>
+    <div class="oferte-item">
+      <div class="oferte-description">
+        <div class="oferte-heading">ORGANIZARI EVENIMENTE DEVINE : BINE AȚI VENIT LA PERFECT ROYAL EVENTS!</div><br>
+        <div class="oferte-paragraph">
+          <p>In decursul anilor am construit si stabilim standardul treptat si sigur al excelentei si a livrarii
+            evenimentului
+            dumneavoastra la cheie. Am reusit sa mentinem acest standard, uneori depasind asteptarile clientilor
+            nostrii, asadar fie
+            ca este vorba de o nunta, un botez, o aniversare, un eveniment corporate cat si petreceri tematice cel mai
+            bun mod de a
+            crea o experiență personalizată și specială pentru oaspeții dvs. indiferent de tipul evenimentului, vă putem
+            fi alaturi
+            prin organizarea acestuia.
+            In cele ce urmeaza va invitam sa vizualizati oferta noastra.
+            Nu ezitati sa ne contactati pentru a incepe sa construim si sa discutam fiecare element din organizarea
+            evenimentul tau!
+          </p>
+        </div>
+      </div>
     </div>
   </div>
   <br>
+
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="nunta.html">
-        <!--add link when clicl on photo href=""-->
-        <img src="images/img_gal/nunta_main.png" alt="PerfectRoyale" width="600" height="400">
+        <img src="images/img_gal/nunta_main.png">
       </a>
       <div class="desc">Nunta</div>
     </div>
@@ -87,18 +79,16 @@
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="botez.html">
-        <!--add link when clicl on photo href=""-->
-        <img src="images/img_gal/mikey_blue.png" alt="PerfectRoyale" width="600" height="400">
+        <img src="images/img_gal/mikey_blue.png">
       </a>
       <div class="desc">Botez</div>
     </div>
   </div>
-  
+
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="corporate.html">
-        <!--add link when clicl on photo href=""-->
-        <img src="images/img_gal/corporate_main.png" alt="PerfectRoyale" width="600" height="400">
+        <img src="images/img_gal/corporate_main.png">
       </a>
       <div class="desc">Corporate</div>
     </div>
@@ -107,31 +97,36 @@
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="entertainment.html">
-        <!--add link when clicl on photo href=""-->
-        <img src="images/img_gal/ent_main.png" alt="PerfectRoyale" width="600" height="400">
+        <img src="images/img_gal/ent_main.png">
       </a>
       <div class="desc">Entertainment</div>
     </div>
   </div>
 
-
-  <picture>
-    <source media="(min-width: 650px)" srcset="images/recomandari/recomandari.gif">
-    <img src="images/recomandari/recomandari_1.gif" class="recom">
-  </picture>
+  <div class="recom-gif">
+    <picture>
+      <source media="(min-width: 650px)" srcset="images/recomandari/recomandari.gif">
+      <img src="images/recomandari/recomandari_1.gif" class="recom">
+    </picture>
+  </div>
 
   <div class="row">
     <div class="column-home">
       <img src="images/widget/paper.png">
       <h2> Evenimente</h2>
-      <p1>Nunta
-      </p1><br>
-      <p1>Botez
-      </p1><br>
-      <p1>Aniversare
-      </p1><br>
-      <p1>Corporate
-      </p1>
+      <a href="nunta.html">
+        <p1>Nunta
+        </p1>
+      </a><br><a href="botez.html">
+        <p1>Botez
+        </p1>
+      </a><br><a href="entertainment.html">
+        <p1>Aniversare
+        </p1>
+      </a><br><a href="corporate.html">
+        <p1>Corporate
+        </p1>
+      </a>
     </div>
 
     <div class="column-home">
@@ -146,15 +141,19 @@
 
     <div class="column-home">
       <img src="images/widget/paper.png">
-      <h2>Alte servicii</h2>
-      <p1>Foto video
-      </p1><br>
-      <p1>Foto corner
-      </p1><br>
-      <p1>Amprente florale
-      </p1><br>
-      <p1>Aranjamente florale
-      </p1>
+      <h2>Alte servicii</h2><a href="oferte.html#photo-video">
+        <p1>Foto video
+        </p1>
+      </a><br><a href="oferte.html#photo-corner">
+        <p1>Foto corner
+        </p1>
+      </a><br><a href="oferte.html#flori">
+        <p1>Amprente florale
+        </p1>
+      </a><br><a href="oferte.html#flori">
+        <p1>Aranjamente florale
+        </p1>
+      </a>
     </div>
   </div>
 
@@ -188,12 +187,6 @@
   </div>
 
   <div class="footer">
-    <a class="social-icon" href="tel:+04736 425 287">
-      <ion-icon name="call-outline"></ion-icon>
-    </a>
-    <a class="social-icon" href="mailto:@petreceriperfecte.ro">
-      <ion-icon name="mail-outline"></ion-icon>
-    </a>
     <a href="https://wa.me/40736425287">
       <ion-icon name="logo-whatsapp"></ion-icon>
     </a>
@@ -204,8 +197,15 @@
     <a class="social-icon" href="https://www.instagram.com/perfectroyalevents/">
       <ion-icon name="logo-instagram"></ion-icon>
     </a>
+    <a class="social-icon" href="https://www.tiktok.com/perfectroyalevents/">
+      <ion-icon name="logo-tiktok"></ion-icon>
+    </a>
+    <h2>Telefon: 0736 425 287</h2>
+    <h2>Email: office@petreceriperfecte.ro</h2>
     <h1>Perfect Royal Events</h1>
   </div>
+
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
