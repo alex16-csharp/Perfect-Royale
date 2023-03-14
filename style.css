@@ -728,7 +728,7 @@ code {
 }
 
 .about-left {
-  padding: 1.25rem 3.125rem 3.125rem 8.75rem;
+  padding: 1rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
@@ -741,7 +741,7 @@ code {
 }
 
 .about-right {
-  padding: 1.25rem 8.75rem 3.125rem 3.125rem;
+  padding: 1rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
