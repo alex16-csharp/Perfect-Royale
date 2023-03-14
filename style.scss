@@ -37,6 +37,22 @@ hr {
     top: 0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+
+
+    a {
+        text-decoration: none;
+    }
+
+
+    ion-icon {
+        font-size: 19px;
+        color: #fff7c6;
+        text-decoration: none;
+    }
+
+    .social-nav {
+        float: left;
+    }
 }
 
 .navbar a {
@@ -332,19 +348,6 @@ img.recom {
     font-family: "BodoniXT";
     text-align: center;
     line-height: 1;
-
-    a {
-        text-decoration: none;
-    }
-
-
-    ion-icon {
-        font-size: 44px;
-        margin-top: 0.5em;
-        color: #fff7c6;
-        text-decoration: none;
-    }
-
 
 }
 
