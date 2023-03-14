@@ -621,7 +621,6 @@ code {
 
 /* Slideshow container */
 .slideshow-container {
-  margin: 2px 300px 2px 300px;
   position: relative;
 }
 
@@ -634,9 +633,9 @@ code {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: rgb(128, 128, 255);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
@@ -653,7 +652,7 @@ code {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0);
 }
 
 /* Caption text */
@@ -763,6 +762,10 @@ code {
     float: right;
     width: 50%;
   }
+  .slideshow-container {
+    float: right;
+    width: 50%;
+  }
   .oferte-image img {
     width: 100%;
   }
@@ -782,9 +785,6 @@ code {
 @media only screen and (max-width: 1440px) {
   .oferte-item {
     padding: 4rem;
-    margin: 4rem;
-  }
-  .slideshow-container {
     margin: 4rem;
   }
 }
@@ -820,7 +820,7 @@ code {
     font-size: 22px;
   }
   .slideshow-container {
-    margin: auto;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1920px) {
