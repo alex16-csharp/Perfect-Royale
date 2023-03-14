@@ -314,6 +314,15 @@ img.recom {
   text-align: center;
   line-height: 1;
 }
+.footer a {
+  text-decoration: none;
+}
+.footer ion-icon {
+  font-size: 44px;
+  margin-top: 0.5em;
+  color: #fff7c6;
+  text-decoration: none;
+}
 
 .about_paragaph {
   font-family: "Signika Negative";
