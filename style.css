@@ -364,7 +364,7 @@ img.recom {
 }
 
 .servicii-text {
-  font-family: "BodoniXT";
+  font-family: "Dancing Script", cursive;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -421,7 +421,7 @@ img.recom {
 }
 
 .servicii-text-ent {
-  font-family: "BodoniXT";
+  font-family: "Dancing Script", cursive;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -431,6 +431,7 @@ img.recom {
 }
 
 .oferte-item {
+  font-family: "Dancing Script", cursive;
   display: inline-block;
   background-color: rgba(156, 156, 156, 0.425);
   padding: 50px 50px 100px 50px;
@@ -438,7 +439,8 @@ img.recom {
 }
 
 /* Style the header */
-.oferte_header {
+.oferte-header {
+  font-family: "Dancing Script", cursive;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
@@ -755,6 +757,7 @@ code {
   letter-spacing: 1px;
   line-height: 2;
   color: #777;
+  font-family: "Dancing Script", cursive;
 }
 
 .about-right h1 {
@@ -768,6 +771,7 @@ code {
   letter-spacing: 1px;
   line-height: 2;
   color: #777;
+  font-family: "Dancing Script", cursive;
 }
 
 @media screen and (max-width: 800px) {
