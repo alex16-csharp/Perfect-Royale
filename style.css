@@ -20,7 +20,7 @@ body a,
 body h1,
 body h2,
 body h3 {
-  font-size: 125%;
+  font-size: 150%;
 }
 
 hr {
@@ -126,7 +126,7 @@ hr {
   left: 70%;
   transform: translate(-50%, -50%);
   color: #3f052e;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 .button1 {
@@ -209,7 +209,7 @@ div.gallery img {
 }
 
 div.desc {
-  font-size: 125%;
+  font-size: 150%;
   padding: 15px;
   text-align: center;
 }
@@ -365,7 +365,7 @@ img.recom {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 125%;
+  font-size: 150%;
   margin: 4px 2px;
   cursor: pointer;
   background-color: #57073f;
@@ -557,7 +557,7 @@ details summary::-webkit-details-marker {
 
 code {
   font-family: "Dancing Script", cursive;
-  font-size: 125%;
+  font-size: 150%;
   line-height: 100%;
   background-color: #6b0d4f;
   padding: 0.1em 0.4em;
@@ -745,7 +745,7 @@ code {
   line-height: 2;
   color: #777;
   font-family: "Dancing Script", cursive;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 .about-right h1 {
@@ -760,7 +760,7 @@ code {
   line-height: 2;
   color: #777;
   font-family: "Dancing Script", cursive;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 @media screen and (max-width: 800px) {
