@@ -169,32 +169,6 @@ a:active {
   color: black;
 }
 
-.main {
-  float: left;
-  width: 60%;
-  padding: 50px 60px 50px 60px;
-  text-align: center;
-}
-
-.main h2 {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration-line: overline;
-  text-decoration-color: #75537d;
-}
-
-.right {
-  color: #fff7c6;
-  background-color: #75537d;
-  float: left;
-  width: 40%;
-  padding: 0 15px 30px;
-  margin-top: 50px;
-  text-align: center;
-  border: 1px rgba(58, 0, 41, 0.6039215686);
-  border-radius: 25px;
-}
-
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -247,19 +221,6 @@ img.recom {
   clear: both;
 }
 
-@media only screen and (max-width: 600px) {
-  /* For mobile phones: */
-  .main,
-  .right {
-    width: 100%;
-  }
-  .main {
-    padding: 50px 60px 0px 60px;
-  }
-  ul li {
-    float: none;
-  }
-}
 /* Create three equal columns that floats next to each other */
 .column-home {
   float: left;
