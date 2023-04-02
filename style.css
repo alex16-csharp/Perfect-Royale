@@ -740,7 +740,7 @@ code {
   }
   .slideshow-container {
     float: right;
-    width: 50%;
+    width: 100%;
   }
   .oferte-image img {
     width: 100%;
@@ -752,7 +752,7 @@ code {
     font-size: 20px;
   }
   .oferte-heading {
-    font-size: 30px;
+    font-size: 40px;
   }
   .oferte-image-small {
     display: none;
@@ -793,7 +793,7 @@ code {
     font-size: auto;
   }
   .oferte-heading {
-    font-size: 22px;
+    font-size: 32px;
   }
   .slideshow-container {
     width: 100%;
