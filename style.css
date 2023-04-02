@@ -745,9 +745,6 @@ code {
   .oferte-image img {
     width: 100%;
   }
-  .oferte-description {
-    float: left;
-  }
   .oferte-paragraph {
     font-size: 20px;
   }
@@ -777,10 +774,6 @@ code {
   }
   .oferte-image img {
     width: 100%;
-  }
-  .oferte-description {
-    width: 100%;
-    font-size: auto;
   }
   .oferte-item {
     padding: auto;
