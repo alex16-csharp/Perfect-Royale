@@ -1,126 +1,155 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    body {
-        font-family: Arial;
-        margin: 0;
-    }
+<html lang="ro-RO">
 
-    * {
-        box-sizing: border-box;
-    }
-
-    img {
-        vertical-align: left;
-    }
-
-    /* Position the image container (needed to position the left and right arrows) */
-    .container {
-        position: relative;
-    }
-
-    /* Hide the images by default */
-    .mySlides {
-        display: none;
-        object-fit: fill;
-
-    }
-
-    /* Add a pointer when hovering over the thumbnail images */
-    .cursor {
-        cursor: pointer;
-    }
-
-    /* Next & previous buttons */
-    .prev,
-    .next {
-        cursor: pointer;
-        position: absolute;
-        top: 40%;
-        width: auto;
-        padding: 16px;
-        margin-top: -50px;
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        -webkit-user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-
-    /* Container for image text */
-    .caption-container {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: white;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* Six columns side by side */
-    .column {
-        float: left;
-        width: 16.66%;
-    }
-
-    /* Add a transparency effect for thumnbail images */
-    .demo {
-        opacity: 0.6;
-    }
-
-    .active,
-    .demo:hover {
-        opacity: 1;
-    }
-
-    .slider {
-        display: flex;
-        aspect-ratio: 16 / 9;
-        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-        border-radius: 0.5rem;
-        overflow: hidden;
-        overflow-x: auto;
-        width: 80%;
-        margin: auto;
-    }
-
-    @media screen and (max-width: 1024px) {
-        .slider {
-            margin: 0%;
-            width: 100%;
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/logo_royal.png">
+    <title> Perfect Royal Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Nunta, Botez, Eveniment, Tort, Candybar, Arcada">
+    <meta name="description" content="Nunta Botez Eveniment">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
         }
-    }
-</style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            vertical-align: left;
+        }
+
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+            position: relative;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+            object-fit: fill;
+
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+            cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 25px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 10%;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Six columns side by side */
+        .column {
+            float: left;
+            width: 16.66%;
+            display: flex;
+            aspect-ratio: 3 / 2;
+
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        .slider {
+            display: flex;
+            aspect-ratio: 16 / 9;
+            box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+            border-radius: 0.5rem;
+            overflow: hidden;
+            overflow-x: auto;
+            width: 80%;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .slider {
+                margin: 0%;
+                width: 100%;
+            }
+
+            .next {
+                right: 0%;
+
+            }
+
+        }
+
+        .stt {
+            position: fixed;
+            right: 2rem;
+            bottom: 2rem;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: rgb(128, 128, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+            box-shadow: 0 0.25rem 0.5rem 0 gray;
+            opacity: 0.7;
+        }
+    </style>
+</head>
 
 <body>
-
+    <a href='serviciioferite.html' class="stt" title="scroll to top"></a>
     <h2 style="text-align:center">Evenimentul Cheie</h2>
 
     <div class="container">
@@ -327,35 +356,178 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
 
-        <div class="row">
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (1).jpeg"
-                    style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (2).jpeg"
-                    style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (3).jpeg"
-                    style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (4).jpeg"
-                    style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (5).jpeg"
-                    style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (6).jpeg"
-                    style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-            </div>
+    </div>
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (1).jpeg"
+                style="width:100%" onclick="currentSlide(1)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (2).jpeg"
+                style="width:100%" onclick="currentSlide(2)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (3).jpeg"
+                style="width:100%" onclick="currentSlide(3)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (4).jpeg"
+                style="width:100%" onclick="currentSlide(4)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (5).jpeg"
+                style="width:100%" onclick="currentSlide(5)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (6).jpeg"
+                style="width:100%" onclick="currentSlide(6)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (7).jpeg"
+                style="width:100%" onclick="currentSlide(7)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (8).jpeg"
+                style="width:100%" onclick="currentSlide(8)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (9).jpeg"
+                style="width:100%" onclick="currentSlide(9)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (10).jpeg"
+                style="width:100%" onclick="currentSlide(10)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (11).jpeg"
+                style="width:100%" onclick="currentSlide(11)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (12).jpeg"
+                style="width:100%" onclick="currentSlide(12)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (13).jpeg"
+                style="width:100%" onclick="currentSlide(13)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (14).jpeg"
+                style="width:100%" onclick="currentSlide(14)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (15).jpeg"
+                style="width:100%" onclick="currentSlide(15)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (16).jpeg"
+                style="width:100%" onclick="currentSlide(16)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (17).jpeg"
+                style="width:100%" onclick="currentSlide(17)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (18).jpeg"
+                style="width:100%" onclick="currentSlide(18)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (19).jpeg"
+                style="width:100%" onclick="currentSlide(19)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (20).jpeg"
+                style="width:100%" onclick="currentSlide(20)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (21).jpeg"
+                style="width:100%" onclick="currentSlide(21)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (22).jpeg"
+                style="width:100%" onclick="currentSlide(22)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (23).jpeg"
+                style="width:100%" onclick="currentSlide(23)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (24).jpeg"
+                style="width:100%" onclick="currentSlide(24)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (25).jpeg"
+                style="width:100%" onclick="currentSlide(25)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (26).jpeg"
+                style="width:100%" onclick="currentSlide(26)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (27).jpeg"
+                style="width:100%" onclick="currentSlide(27)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (28).jpeg"
+                style="width:100%" onclick="currentSlide(28)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (29).jpeg"
+                style="width:100%" onclick="currentSlide(29)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (30).jpeg"
+                style="width:100%" onclick="currentSlide(30)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (31).jpeg"
+                style="width:100%" onclick="currentSlide(31)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (32).jpeg"
+                style="width:100%" onclick="currentSlide(32)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (33).jpeg"
+                style="width:100%" onclick="currentSlide(33)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (34).jpeg"
+                style="width:100%" onclick="currentSlide(34)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (35).jpeg"
+                style="width:100%" onclick="currentSlide(35)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (36).jpeg"
+                style="width:100%" onclick="currentSlide(36)" alt="">
+        </div>
+        <br>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (37).jpeg"
+                style="width:100%" onclick="currentSlide(37)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (38).jpeg"
+                style="width:100%" onclick="currentSlide(38)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (39).jpeg"
+                style="width:100%" onclick="currentSlide(39)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="/images/oferte/evenimentul-la-cheie/evenimentul cheie  (40).jpeg"
+                style="width:100%" onclick="currentSlide(40)" alt="">
         </div>
     </div>
 
