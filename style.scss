@@ -37,7 +37,7 @@ hr {
 
 
     ion-icon {
-        font-size: 24px;
+        font-size: 18px;
         color: #fff7c6;
         text-decoration: none;
     }
@@ -66,13 +66,16 @@ hr {
     border: none;
     outline: none;
     color: #fff7c6;
-    padding: 14px 16px;
+    padding: 16px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+    background-color: #b80d4031;
+}
+
 .dropdown:hover .dropbtn {
     background-color: #b80d4031;
 }
@@ -156,7 +159,6 @@ a:visited,
 a:hover,
 a:active {
     color: #fff7c6;
-    background-color: transparent;
     text-decoration: none;
 }
 
@@ -405,8 +407,8 @@ p.row {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     background-color: rgba(156, 156, 156, 0.425);
-    padding: 50px 50px 100px 50px;
-    margin: 2px 300px 2px 300px;
+    padding: 7rem;
+    margin: 4rem;
 }
 
 /* Style the header */
@@ -835,17 +837,11 @@ code {
         display: none;
     }
 
-}
-
-// on tablet
-// or max-width: 1024px
-@media only screen and (max-width: 1440px) {
-    .oferte-item {
-        padding: 4rem;
-        margin: 4rem;
+    .oferte-header-padding {
+        display: none;
     }
-}
 
+}
 
 
 /* on Mobile */
@@ -891,6 +887,10 @@ code {
         .social-nav {
             float: right;
         }
+    }
+
+    .oferte-header-padding {
+        display: box;
     }
 }
 
