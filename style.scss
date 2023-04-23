@@ -650,11 +650,13 @@ code {
     border-radius: 0.5rem;
     overflow: hidden;
     overflow-x: auto;
-
+    max-width: max-content;
+    margin: 0 auto;
 }
 
 /* Slideshow container */
 .slideshow-container {
+    padding: 2rem;
     // max-width: 1000px;
     // padding: 50px 50px 100px 50px;
     // margin: 2px 300px 2px 300px;
@@ -681,7 +683,7 @@ code {
 
 /* Position the "next button" to the right */
 .next {
-    right: 0;
+    right: 2rem;
     border-radius: 3px 0 0 3px;
 }
 
@@ -827,6 +829,7 @@ code {
 
     .oferte-paragraph {
         font-size: 20px;
+        text-align: justify;
     }
 
     .oferte-heading {

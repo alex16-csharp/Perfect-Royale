@@ -585,10 +585,14 @@ code {
   border-radius: 0.5rem;
   overflow: hidden;
   overflow-x: auto;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto;
 }
 
 /* Slideshow container */
 .slideshow-container {
+  padding: 2rem;
   position: relative;
 }
 
@@ -613,7 +617,7 @@ code {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 2rem;
   border-radius: 3px 0 0 3px;
 }
 
@@ -743,6 +747,7 @@ code {
   }
   .oferte-paragraph {
     font-size: 20px;
+    text-align: justify;
   }
   .oferte-heading {
     font-size: 40px;
