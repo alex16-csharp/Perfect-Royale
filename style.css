@@ -384,7 +384,7 @@ p.row {
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .contact_oferte {
@@ -761,6 +761,9 @@ code {
 }
 /* on Mobile */
 @media screen and (max-width: 550px) {
+  .oferte-header {
+    margin-top: 0%;
+  }
   .oferte-image {
     width: 100%;
     display: none;
@@ -774,7 +777,7 @@ code {
     width: 100%;
   }
   .oferte-item {
-    padding: auto;
+    padding: 4rem;
     margin: auto;
   }
   .oferte-paragraph {
@@ -788,6 +791,11 @@ code {
   }
   .slideshow-container {
     width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .next {
+    right: 0;
   }
   .navbar .social-nav {
     float: right;
