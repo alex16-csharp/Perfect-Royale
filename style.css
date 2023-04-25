@@ -727,11 +727,28 @@ code {
   font-size: 150%;
 }
 
+.oferte-left {
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+.oferte-right {
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
 @media screen and (max-width: 800px) {
   .about-left,
   .about-right {
     width: 100%;
     padding: 50px;
+  }
+  .oferte-left,
+  .oferte-right {
+    width: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 /* on PC */
@@ -762,7 +779,7 @@ code {
   }
 }
 /* on Mobile */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
   .oferte-header {
     margin-top: 0%;
   }
