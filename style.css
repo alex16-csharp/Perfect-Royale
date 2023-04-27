@@ -160,6 +160,14 @@ a:active {
   color: black;
 }
 
+.gallery {
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.all-gallery {
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -830,14 +838,16 @@ code {
   .corporate-image,
   .ent-image {
     height: 800px;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   }
 }
 .recom-gif {
   margin: 4rem;
 }
 .recom-gif img {
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media only screen and (max-width: 760px) {
