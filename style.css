@@ -556,6 +556,9 @@ code {
   color: #111827;
   font-family: Arial, Helvetica, sans-serif;
 }
+.article a:link {
+  text-decoration: none;
+}
 
 .mySlides1,
 .mySlides2,
