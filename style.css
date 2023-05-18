@@ -833,6 +833,23 @@ code {
   .oferte-header-padding {
     display: box;
   }
+  .navbar a {
+    width: 25%;
+  }
+  .navbar ion-icon {
+    font-size: 25px;
+    color: #fff7c6;
+    text-decoration: none;
+  }
+  .navbar .social-nav {
+    width: inherit;
+  }
+  .navbar .dropdown {
+    width: 25%;
+  }
+  .navbar .dropdown .dropbtn {
+    padding-left: 25%;
+  }
 }
 @media screen and (min-width: 1920px) {
   .back-image,

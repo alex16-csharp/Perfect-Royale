@@ -826,8 +826,6 @@ code {
 }
 
 
-
-
 @media screen and (max-width: 800px) {
 
     .about-left,
@@ -942,6 +940,35 @@ code {
     .oferte-header-padding {
         display: box;
     }
+
+    .navbar {
+
+        a {
+            // inline-size: max-content;
+            width: 25%;
+        }
+
+        ion-icon {
+            font-size: 25px;
+            color: #fff7c6;
+            text-decoration: none;
+        }
+
+        .social-nav {
+            width: inherit;
+        }
+
+        .dropdown {
+
+            width: 25%;
+
+            .dropbtn {
+                padding-left: 25%;
+            }
+        }
+    }
+
+
 }
 
 // hero images for 4k 
