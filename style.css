@@ -834,6 +834,8 @@ code {
     display: box;
   }
   .navbar a {
+    inline-size: -moz-max-content;
+    inline-size: max-content;
     width: 25%;
   }
   .navbar ion-icon {
@@ -849,6 +851,9 @@ code {
   }
   .navbar .dropdown .dropbtn {
     padding-left: 25%;
+  }
+  .navbar .dropdown-content a {
+    width: auto;
   }
 }
 @media screen and (min-width: 1920px) {

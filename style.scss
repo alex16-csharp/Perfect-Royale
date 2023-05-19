@@ -944,7 +944,7 @@ code {
     .navbar {
 
         a {
-            // inline-size: max-content;
+            inline-size: max-content;
             width: 25%;
         }
 
@@ -964,6 +964,12 @@ code {
 
             .dropbtn {
                 padding-left: 25%;
+            }
+        }
+
+        .dropdown-content {
+            a {
+                width: auto;
             }
         }
     }
