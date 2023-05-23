@@ -778,6 +778,7 @@ code {
   .oferte-paragraph {
     font-size: 20px;
     text-align: justify;
+    font-weight: 500;
   }
   .oferte-heading {
     font-size: 40px;
@@ -791,9 +792,6 @@ code {
 }
 /* on Mobile */
 @media screen and (max-width: 800px) {
-  .oferte-header {
-    margin-top: 0%;
-  }
   .oferte-image {
     width: 100%;
     display: none;
@@ -811,7 +809,8 @@ code {
     margin: auto;
   }
   .oferte-paragraph {
-    font-size: auto;
+    font-weight: 600;
+    text-align: justify;
   }
   .servicii_main {
     font-size: auto;
