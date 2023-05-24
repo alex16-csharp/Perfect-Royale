@@ -884,6 +884,7 @@ code {
 }
 
 .stt {
+  z-index: 1;
   position: fixed;
   right: 2rem;
   bottom: 2rem;
