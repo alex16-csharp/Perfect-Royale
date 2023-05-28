@@ -812,9 +812,6 @@ code {
     font-weight: 600;
     text-align: justify;
   }
-  .servicii_main {
-    font-size: auto;
-  }
   .oferte-heading {
     font-size: 32px;
   }
@@ -830,7 +827,7 @@ code {
     float: right;
   }
   .oferte-header-padding {
-    display: box;
+    display: block;
   }
   .navbar a {
     inline-size: -moz-max-content;
