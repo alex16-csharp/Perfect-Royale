@@ -623,17 +623,21 @@ code {
 
 }
 
-// small slider
-.small-slider-container,
-.small-slider-container1 {
+// mobile slider
+
+.small-slider-container {
     padding: 2rem;
 }
 
-.small-slider-wrapper {
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
+@media screen and (min-width: 800px) {
+    .small-slider-wrapper {
+        position: relative;
+        max-width: 48rem;
+        margin: 0 auto;
+        display: none;
+    }
 }
+
 
 .small-slider {
     display: flex;
@@ -682,6 +686,7 @@ code {
 .small-slider-nav a:hover {
     opacity: 1;
 }
+
 
 // slider
 .mySlides1,
