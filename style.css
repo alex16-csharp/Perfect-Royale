@@ -566,12 +566,15 @@ code {
 
 @media screen and (min-width: 800px) {
   .small-slider-wrapper {
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
     display: none;
   }
 }
+.small-slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
 .small-slider {
   display: flex;
   aspect-ratio: 16/9;
@@ -607,6 +610,7 @@ code {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  display: none;
 }
 
 .small-slider-nav a {
@@ -653,6 +657,11 @@ code {
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .slideshow-container {
+    display: none;
+  }
+}
 .slider {
   display: flex;
   aspect-ratio: 16/9;
