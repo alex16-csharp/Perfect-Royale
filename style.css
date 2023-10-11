@@ -825,13 +825,10 @@ code {
 @media screen and (min-width: 550px) {
   .oferte-image {
     float: right;
-    width: 50%;
+    width: 90%;
   }
   .slideshow-container {
     float: right;
-    width: 100%;
-  }
-  .oferte-image img {
     width: 100%;
   }
   .oferte-paragraph {

@@ -901,9 +901,7 @@ code {
 @media screen and (min-width: 550px) {
     .oferte-image {
         float: right;
-        width: 50%;
-        // padding-right: 45px;
-        // padding-top: 45px;
+        width: 90%;
     }
 
     .slideshow-container {
@@ -911,9 +909,6 @@ code {
         width: 100%;
     }
 
-    .oferte-image img {
-        width: 100%;
-    }
 
     .oferte-paragraph {
         font-size: 20px;
