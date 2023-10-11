@@ -833,7 +833,6 @@ code {
   }
   .oferte-paragraph {
     font-size: 20px;
-    text-align: justify;
     font-weight: 500;
   }
   .oferte-heading {
@@ -866,7 +865,6 @@ code {
   }
   .oferte-paragraph {
     font-weight: 600;
-    text-align: justify;
   }
   .oferte-heading {
     font-size: 32px;
