@@ -561,8 +561,8 @@ code {
 }
 
 .small-slider-container {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media screen and (min-width: 800px) {
@@ -572,13 +572,12 @@ code {
 }
 .small-slider-wrapper {
   position: relative;
-  max-width: 48rem;
+  max-width: 95%;
   margin: 0 auto;
 }
 
 .small-slider {
   display: flex;
-  aspect-ratio: 16/9;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
