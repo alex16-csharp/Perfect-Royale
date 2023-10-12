@@ -641,6 +641,7 @@ code {
 
 
 .small-slider {
+    object-fit: cover;
     aspect-ratio: 16 / 9;
     display: flex;
     overflow-x: auto;
@@ -662,7 +663,7 @@ code {
 .small-slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .small-slider-nav {
