@@ -625,7 +625,9 @@ code {
 
 // mobile slider
 
-.small-slider-container {}
+.small-slider-container {
+    padding: 2rem;
+}
 
 @media screen and (min-width: 800px) {
     .small-slider-wrapper {
