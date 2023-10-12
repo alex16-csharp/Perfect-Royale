@@ -660,9 +660,9 @@ code {
 }
 
 .small-slider img {
-    flex: 1 0 50%;
+    flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .small-slider-nav {
