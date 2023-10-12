@@ -560,11 +560,6 @@ code {
   text-decoration: none;
 }
 
-.small-slider-container {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 @media screen and (min-width: 800px) {
   .small-slider-wrapper {
     display: none;
@@ -577,6 +572,7 @@ code {
 }
 
 .small-slider {
+  aspect-ratio: 16/9;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
