@@ -561,7 +561,8 @@ code {
 }
 
 .small-slider-container {
-  padding: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (min-width: 800px) {
