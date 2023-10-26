@@ -705,33 +705,39 @@ code {
   }
 }
 .about-left h1 {
-  color: #000000;
+  font-family: "Polyglot", sans-serif;
+  font-size: 350%;
+}
+
+.about-left p {
+  font-family: "Futura PT", sans-serif;
+  font-size: 130%;
 }
 
 .about-left {
-  padding: 1rem;
+  padding: 1.25rem 3.125rem 3.125rem 8.75rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
   line-height: 2;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 150%;
-}
-
-.about-right h1 {
-  color: #000000;
 }
 
 .about-right {
-  padding: 1rem;
+  padding: 1.25rem 8.75rem 3.125rem 3.125rem;
   float: left;
   width: 50%;
   letter-spacing: 1px;
   line-height: 2;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 150%;
+}
+
+.about-right h1 {
+  font-family: "Polyglot", sans-serif;
+  font-size: 350%;
+}
+
+.about-right p {
+  font-family: "Futura PT", sans-serif;
+  font-size: 130%;
 }
 
 .oferte-left {
@@ -833,7 +839,11 @@ code {
   .about-left,
   .about-right {
     width: 100%;
-    padding: 50px;
+    padding: 1rem;
+    text-align: center;
+  }
+  .first-about-left {
+    padding-top: 100px;
   }
   .oferte-left,
   .oferte-right {
