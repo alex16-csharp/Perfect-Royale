@@ -15,7 +15,8 @@ body {
 }
 
 hr {
-  border: 0px;
+  border: 30px;
+  background-color: #3f052e;
 }
 
 .navbar {
@@ -399,7 +400,6 @@ img.recom {
 }
 
 .oferte-item {
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   background-color: rgba(156, 156, 156, 0.425);
   padding: 7rem;
@@ -408,9 +408,22 @@ img.recom {
   border-radius: 0.5rem;
 }
 
+.oferte-heading {
+  font-family: "Polyglot", sans-serif;
+  font-size: 300%;
+  font-weight: 400;
+}
+
+.oferte-paragraph {
+  font-family: "Futura PT", sans-serif;
+  font-size: 130%;
+  font-weight: 400;
+}
+
 /* Style the header */
 .oferte-header {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Polyglot", sans-serif;
+  font-size: 150%;
   padding: 20px;
   text-align: center;
   margin-top: 4rem;
@@ -741,13 +754,13 @@ code {
 }
 
 .oferte-left {
-  padding: 20px;
+  padding: 2rem;
   float: left;
   width: 50%;
 }
 
 .oferte-right {
-  padding: 20px;
+  padding: 2rem;
   float: left;
   width: 50%;
 }
@@ -761,13 +774,6 @@ code {
   .slideshow-container {
     float: right;
     width: 100%;
-  }
-  .oferte-paragraph {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .oferte-heading {
-    font-size: 40px;
   }
   .oferte-image-small {
     display: none;
@@ -791,14 +797,8 @@ code {
     width: 100%;
   }
   .oferte-item {
-    padding: 4rem;
+    padding: 2rem;
     margin: auto;
-  }
-  .oferte-paragraph {
-    font-weight: 600;
-  }
-  .oferte-heading {
-    font-size: 32px;
   }
   .slideshow-container {
     width: 100%;
