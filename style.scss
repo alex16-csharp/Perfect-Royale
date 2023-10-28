@@ -14,8 +14,12 @@ body {
 }
 
 hr {
-    border: 30px;
-    background-color: #3f052e;
+    height: 20px;
+    // border-width: 3px;
+    width: 95%;
+    border-radius: 30px;
+    color: #57073f;
+    background-color: #57073f;
 }
 
 .navbar {
