@@ -108,7 +108,7 @@ hr {
 .back-image {
   background-image: url("/images/pages-main/candy_bar_main.jpg");
   background-color: #cccccc;
-  height: 900px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,6 +248,7 @@ img.recom {
   cursor: pointer;
   background-color: #57073f;
   border-radius: 25px;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
 
 /* Clear floats after the columns */
@@ -720,52 +721,19 @@ code {
     font-size: 11px;
   }
 }
-.about-left h1 {
+.about {
+  padding: 5rem;
+  text-align: center;
+}
+.about > h1 {
   font-family: "Polyglot", sans-serif;
   font-size: 350%;
 }
-
-.about-left p {
+.about > p {
   font-family: "Futura PT", sans-serif;
   font-size: 130%;
-}
-
-.about-left {
-  padding: 1.25rem 3.125rem 3.125rem 8.75rem;
-  float: left;
-  width: 50%;
-  letter-spacing: 1px;
   line-height: 2;
-}
-
-.about-right {
-  padding: 1.25rem 8.75rem 3.125rem 3.125rem;
-  float: left;
-  width: 50%;
   letter-spacing: 1px;
-  line-height: 2;
-}
-
-.about-right h1 {
-  font-family: "Polyglot", sans-serif;
-  font-size: 350%;
-}
-
-.about-right p {
-  font-family: "Futura PT", sans-serif;
-  font-size: 130%;
-}
-
-.oferte-left {
-  padding: 2rem;
-  float: left;
-  width: 50%;
-}
-
-.oferte-right {
-  padding: 2rem;
-  float: left;
-  width: 50%;
 }
 
 /* on PC */
@@ -839,14 +807,8 @@ code {
   .navbar .dropdown-content a {
     width: auto;
   }
-  .about-left,
-  .about-right {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-  }
-  .first-about-left {
-    padding-top: 100px;
+  .about {
+    padding: 2rem;
   }
   .oferte-left,
   .oferte-right {
@@ -860,7 +822,6 @@ code {
   .nunta-image,
   .corporate-image,
   .ent-image {
-    height: 800px;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   }
 }
@@ -871,6 +832,7 @@ code {
   border-radius: 0.5rem;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
 
 @media only screen and (max-width: 760px) {
