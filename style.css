@@ -16,7 +16,6 @@ body {
 
 hr {
   height: 20px;
-  width: 95%;
   border-radius: 30px;
   color: #57073f;
   background-color: #57073f;
@@ -225,6 +224,7 @@ img.recom {
   float: left;
   width: 33.33%;
   padding: 15px;
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -295,7 +295,7 @@ img.recom {
 .footer {
   background-color: #57073f;
   color: #fff7c6;
-  padding-bottom: 0.5px;
+  padding-bottom: 2rem;
   padding-top: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -404,17 +404,14 @@ img.recom {
 
 .oferte-item {
   display: inline-block;
-  background-color: rgba(156, 156, 156, 0.425);
-  padding: 7rem;
   margin: 4rem;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 0.5rem;
 }
 
 .oferte-heading {
   font-family: "Polyglot", sans-serif;
   font-size: 300%;
   font-weight: 400;
+  text-align: center;
 }
 
 .oferte-paragraph {
@@ -427,7 +424,6 @@ img.recom {
 .oferte-header {
   font-family: "Polyglot", sans-serif;
   font-size: 150%;
-  padding: 20px;
   text-align: center;
   margin-top: 4rem;
 }
@@ -837,6 +833,8 @@ code {
 @media only screen and (max-width: 760px) {
   .recom-gif {
     margin: 0%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 :root {
