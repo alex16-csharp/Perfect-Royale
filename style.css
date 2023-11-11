@@ -28,6 +28,9 @@ hr {
   top: 0;
   width: 100%;
   font-family: "Futura PT", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 .navbar a {
   text-decoration: none;
@@ -121,6 +124,9 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #3f052e;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 
 .back-text h1 {
@@ -184,6 +190,9 @@ div.desc {
   text-align: center;
   font-family: "Futura PT", sans-serif;
   font-size: 130%;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 
 * {
@@ -249,6 +258,9 @@ img.recom {
   background-color: #57073f;
   border-radius: 25px;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 
 /* Clear floats after the columns */
@@ -297,8 +309,10 @@ img.recom {
   color: #fff7c6;
   padding-bottom: 2rem;
   padding-top: 0.5rem;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 .footer a:link,
 .footer a:visited,
@@ -347,6 +361,9 @@ img.recom {
   background-color: #57073f;
   border-radius: 25px;
   font-family: "Futura PT", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 
 /* Nunta */
@@ -389,6 +406,9 @@ img.recom {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff7c6;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 
 .servicii-text-ent h1 {
@@ -418,6 +438,22 @@ img.recom {
   font-family: "Futura PT", sans-serif;
   font-size: 130%;
   font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
+}
+
+.oferte-left {
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+.oferte-right {
+  padding: 20px;
+  float: left;
+  width: 50%;
 }
 
 /* Style the header */
@@ -476,6 +512,9 @@ code {
   padding: 2em;
   margin: auto;
   padding: 50px 10px 10px 10px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px;
 }
 .article > p {
   margin-top: 2em;
@@ -763,7 +802,7 @@ code {
     width: 100%;
   }
   .oferte-item {
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
   }
   .slideshow-container {
