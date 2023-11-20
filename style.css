@@ -23,7 +23,7 @@ html {
 }
 
 hr {
-  height: 20px;
+  height: 10px;
   border-radius: 30px;
   color: #57073f;
   background-color: #57073f;
@@ -432,6 +432,7 @@ img.recom {
   font-size: 300%;
   font-weight: 400;
   text-align: center;
+  margin-top: 1.5rem;
 }
 
 .oferte-paragraph {
@@ -689,4 +690,29 @@ code {
 
 .gmap_iframe {
   height: 400px !important;
+}
+
+.carousel {
+  background: #EEE;
+  box-shadow: 0 0.25rem 0.5rem 0 gray;
+  margin-bottom: 6rem;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+.flickity-page-dots {
+  top: 110%;
 }/*# sourceMappingURL=style.css.map */
