@@ -567,19 +567,16 @@ code {
 /* on Mobile */
 @media screen and (max-width: 800px) {
   .carousel {
-    overflow-x: hidden;
-    margin-left: 0;
-    margin-right: 0;
     width: 100%;
+    overflow-x: clip;
   }
   .carousel-cell {
     margin-right: 10px;
-    max-width: 100%;
     overflow: hidden;
   }
   .carousel-cell img {
-    width: 100%;
     height: auto;
+    width: 100%;
   }
   .oferte-image {
     width: 100%;
