@@ -566,6 +566,21 @@ code {
 }
 /* on Mobile */
 @media screen and (max-width: 800px) {
+  .carousel {
+    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .carousel-cell {
+    margin-right: 10px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .carousel-cell img {
+    width: 100%;
+    height: auto;
+  }
   .oferte-image {
     width: 100%;
     display: none;
@@ -756,6 +771,36 @@ code {
   transform-origin: center;
   transition: transform 150ms ease;
   cursor: zoom-in;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+       user-select: none;
+  touch-action: manipulation;
+}
+
+@media (max-width: 600px) {
+  .fullscreen-modal__content {
+    padding: 10px;
+  }
+  .fullscreen-modal__img {
+    border-radius: 4px;
+    box-shadow: none;
+  }
+}
+#fullscreen-modal,
+#fullscreen-modal * {
+  max-width: 100%;
+}
+
+#fullscreen-modal {
+  overflow: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .fullscreen-modal__close {
