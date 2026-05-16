@@ -55,6 +55,32 @@
             if (src) showModal(src);
         });
 
+        // Double-click in fullscreen => zoom/pan the image
+        $(document).on('dblclick', '#fullscreen-modal.is-open .fullscreen-modal__img', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const img = this;
+            const currentScale = img.dataset.scale ? Number(img.dataset.scale) : 1;
+            const nextScale = currentScale >= 2 ? 1 : 2;
+
+            img.dataset.scale = String(nextScale);
+
+            if (nextScale === 1) {
+                img.style.transform = 'scale(1)';
+                return;
+            }
+
+            // zoom around the click point (approximate)
+            const rect = img.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
+            const px = (offsetX / rect.width) * 100;
+            const py = (offsetY / rect.height) * 100;
+            img.style.transformOrigin = `${px}% ${py}%`;
+            img.style.transform = 'scale(2)';
+        });
+
         $('.carousel').each(function (i, carousel) {
             var $carousel = $(carousel);
             $carousel.flickity({

@@ -838,7 +838,12 @@ code {
     object-fit: contain;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.5);
     border-radius: 6px;
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 150ms ease;
+    cursor: zoom-in;
 }
+
 
 .fullscreen-modal__close {
     position: absolute;
